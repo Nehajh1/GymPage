@@ -77,7 +77,9 @@
 }
 
 @media (max-width: 768px) {
+
   .page1-main-nav {
+    transition: transform 0.3s ease-in-out;
     position: absolute;
     top: 70px;
     right: 0;
@@ -95,7 +97,7 @@
   }
 
   .nav-toggle:checked ~ .page1-main-nav {
-    display: flex;
+     display: flex;
   }
 
   .nav-toggle-label {

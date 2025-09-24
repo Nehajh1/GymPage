@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from "react";
 import "../Styles/Home.css";
 import heroImage from "../assets/Gym-Background.jpg"; // put your image inside src/assets/
