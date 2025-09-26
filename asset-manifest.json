@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/GymPage/static/css/main.011ab470.css",
-    "main.js": "/GymPage/static/js/main.9bd31d75.js",
+    "main.css": "/GymPage/static/css/main.b99465b9.css",
+    "main.js": "/GymPage/static/js/main.e8ee8ff0.js",
     "static/js/453.d4169ddd.chunk.js": "/GymPage/static/js/453.d4169ddd.chunk.js",
     "static/media/Hiit.jpg": "/GymPage/static/media/Hiit.13922d665b38b99907de.jpg",
+    "static/media/Trainer3.jpg": "/GymPage/static/media/Trainer3.0d58c1f8c4e250e6e788.jpg",
     "static/media/Yoga.jpg": "/GymPage/static/media/Yoga.7340319ecdd8cc8acc24.jpg",
     "static/media/Strength.jpg": "/GymPage/static/media/Strength.384a8bad68b89818a3ea.jpg",
     "static/media/Gym1.jpg": "/GymPage/static/media/Gym1.b833ef7ab77296345aa8.jpg",
+    "static/media/Trainer1.jpg": "/GymPage/static/media/Trainer1.7993e22359e2b6107779.jpg",
+    "static/media/Trainer2.jpg": "/GymPage/static/media/Trainer2.3b15ab799bc28e70168b.jpg",
     "static/media/Gym-Background.jpg": "/GymPage/static/media/Gym-Background.c5847f2936d31a80a676.jpg",
     "static/media/Cardio.jpg": "/GymPage/static/media/Cardio.83e1fd3c60308ef3724c.jpg",
     "index.html": "/GymPage/index.html",
-    "main.011ab470.css.map": "/GymPage/static/css/main.011ab470.css.map",
-    "main.9bd31d75.js.map": "/GymPage/static/js/main.9bd31d75.js.map",
+    "main.b99465b9.css.map": "/GymPage/static/css/main.b99465b9.css.map",
+    "main.e8ee8ff0.js.map": "/GymPage/static/js/main.e8ee8ff0.js.map",
     "453.d4169ddd.chunk.js.map": "/GymPage/static/js/453.d4169ddd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.011ab470.css",
-    "static/js/main.9bd31d75.js"
+    "static/css/main.b99465b9.css",
+    "static/js/main.e8ee8ff0.js"
   ]
 }
