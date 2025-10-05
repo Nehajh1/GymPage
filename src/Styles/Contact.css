@@ -1,0 +1,98 @@
+#gymContactUs {
+  background-color: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+/* ====== Signup Section ====== */
+.gymContactUs-signup-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* stretch to full height if needed */
+}
+
+.gymContactUs-signup-box {
+  display: flex;
+  width: 100%; /* full width of the screen */
+  background: #fff;
+  border-radius: 0; /* remove rounded corners for edge-to-edge look */
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Text section */
+.gymContactUs-form-content {
+  flex: 1;
+  padding: 60px;
+
+}
+.gymContactUs-form-content h2 {
+  margin-left: 150px;
+  color: #e63946;
+}
+.gymContactUs-form-content p {
+  font-weight: bold;
+}
+
+/* Image section */
+.gymContactUs-form-image {
+  flex: 1;
+}
+
+.gymContactUs-form-image img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+/* ====== Form Styles ====== */
+.gymContactUs-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.gymContactUs-form-group label {
+  font-weight: 200;
+  margin-bottom: 8px;
+}
+
+.gymContactUs-form-group input,
+.gymContactUs-form-group select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.gymContactUs-submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.gymContactUs-submit-button:hover {
+  background-color: #d62828;
+}
+
+/* ====== Responsive Design ====== */
+@media (max-width: 900px) {
+  .gymContactUs-signup-box {
+    flex-direction: column;
+  }
+
+  .gymContactUs-form-content {
+    padding: 40px;
+  }
+
+  .gymContactUs-form-image {
+    height: 300px;
+  }
+}

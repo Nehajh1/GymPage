@@ -7,6 +7,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Programs from "./Pages/Programs";
 import Trainers from "./Pages/Trainers";
+import Membership from "./Pages/Membership";
+import Contact from "./Pages/Contact";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <About/>
         <Programs/>
         <Trainers/>
+        <Membership/>
+        <Contact/>
       </div>
     </Router>
   );
