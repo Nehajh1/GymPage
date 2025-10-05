@@ -1,0 +1,80 @@
+#gymFooter {
+  background-color: #fff;
+  color: #f1f1f1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  padding: 60px 80px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.gymFooter-column h4 {
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+  color: #e63946;
+}
+
+.gymFooter-column p {
+  margin-bottom: 10px;
+  color: #111;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.gymFooter-column p:hover {
+  color: #fff;
+}
+
+/* Brand column styling */
+.gymFooter-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gymFooter-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.gymFooter-socials img {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gymFooter-socials img:hover {
+  transform: scale(1.1);
+}
+
+.gymFooter-copy {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  #gymFooter {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .gymFooter-brand {
+    align-items: center;
+  }
+
+  .gymFooter-socials {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #gymFooter {
+    grid-template-columns: 1fr;
+  }
+}

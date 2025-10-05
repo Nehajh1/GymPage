@@ -8,7 +8,10 @@ import About from "./Pages/About";
 import Programs from "./Pages/Programs";
 import Trainers from "./Pages/Trainers";
 import Membership from "./Pages/Membership";
+import Info from "./Pages/Info";
 import Contact from "./Pages/Contact";
+import FooterPage from "./Pages/FooterPage";
+import Footer from "./Pages/Footer";
 
 
 function App() {
@@ -21,7 +24,10 @@ function App() {
         <Programs/>
         <Trainers/>
         <Membership/>
+        <Info/>
         <Contact/>
+        <FooterPage/>
+        <Footer/>
       </div>
     </Router>
   );

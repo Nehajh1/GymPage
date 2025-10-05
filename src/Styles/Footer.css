@@ -1,0 +1,35 @@
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.footer .socials {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .socials img {
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+
+.footer .socials img:hover {
+  filter: brightness(0) invert(0.5);
+}
