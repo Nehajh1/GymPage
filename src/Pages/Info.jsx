@@ -1,8 +1,8 @@
 import React from "react";
-import GymLogo1 from "../assets/Gym1.jpg";
-import GymLogo2 from "../assets/Gym1.jpg";
-import GymLogo3 from "../assets/Gym1.jpg";
-import GymLogo4 from "../assets/Gym1.jpg";
+import GymLogo1 from "../assets/ExpertsTrainers.jpg";
+import GymLogo2 from "../assets/Equipment.jpg";
+import GymLogo3 from "../assets/Membership.jpg";
+import GymLogo4 from "../assets/Plans.jpg";
 import "../Styles/Info.css";
 
 function Info() {
