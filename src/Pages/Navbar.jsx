@@ -21,10 +21,30 @@ function Navbar() {
 
   return (
     <header className="page1-header">
-      <div className="page1-logo">
-        <img src={logo} alt="Gym Logo" />
-        <span className="page1-logo-text">FitLife Gym</span>
-      </div>
+<div className="page1-logo">
+  <img src={logo} alt="Gym Logo" />
+  <li>
+    <span
+      className="page1-logo-text" // this can be styled like a normal menu item
+      onClick={() => {
+        const homeSection = document.getElementById("home");
+        if (homeSection) {
+          const yOffset = -70; // adjust for navbar height
+          const y = homeSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+        setOpenDropdown(null); // close dropdown if any
+      }}
+      style={{ cursor: "pointer", background: "none", border: "none", padding: 0 }}
+    >
+      FitLife Gym
+    </span>
+  </li>
+</div>
+
+
+
+
 
       <div className="page1-list">
         <input type="checkbox" id="nav-toggle" className="nav-toggle" />
