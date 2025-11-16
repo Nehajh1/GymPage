@@ -16,22 +16,20 @@ import Footer from "./Pages/Footer";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Home />
-        <About/>
-        <Programs/>
-        <Trainers/>
-        <Membership/>
-        <Info/>
-        <Contact/>
-        <FooterPage/>
-        <Footer/>
-      </div>
+     <Router>
+      <Navbar />
+      <Home/>
+      <About/>
+      <Programs/>
+      <Trainers/>
+      <Membership/>
+      <Info/>
+      <Contact/>
+      <FooterPage/>
+      <Footer/>
+
     </Router>
   );
 }
 
 export default App;
-
